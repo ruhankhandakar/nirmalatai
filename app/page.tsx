@@ -1,13 +1,17 @@
-import { Coins, CreditCard, Calculator } from "lucide-react"
-import { Card, CardContent } from "@/components/ui/card"
-import Image from "next/image"
+import { Coins, CreditCard, Calculator } from 'lucide-react';
+import { Card, CardContent } from '@/components/ui/card';
+import Image from 'next/image';
 
 export default function BudgetPage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-orange-50 to-orange-100 p-8">
       <header className="text-center mb-12">
-        <h1 className="text-4xl font-bold mb-4 text-orange-600">Budget 2025: The Great Indian Tax Show! 🎭</h1>
-        <p className="text-xl text-gray-600">Where your money does a disappearing act! ✨</p>
+        <h1 className="text-4xl font-bold mb-4 text-orange-600">
+          Budget 2025: The Great Indian Tax Show! 🎭
+        </h1>
+        <p className="text-xl text-gray-600">
+          Where your money does a disappearing act! ✨
+        </p>
       </header>
 
       <div className="max-w-xl mx-auto mb-12">
@@ -26,12 +30,14 @@ export default function BudgetPage() {
           <CardContent className="p-6">
             <div className="flex items-center gap-2 mb-4">
               <CreditCard className="w-6 h-6 text-orange-500" />
-              <h2 className="text-xl font-semibold">Doorbell Tax</h2>
+              <h2 className="text-xl font-semibold">Meeting Tax</h2>
             </div>
             <p className="text-gray-600">
-              Ring bell once: 10% tax
+              Once: 10% tax
               <br />
-              Ring twice: 20% tax
+              More than once: 20% tax
+              <br />
+              With video: 32% tax
               <br />
               Don't ring: Still paying tax! 😄
             </p>
@@ -45,9 +51,9 @@ export default function BudgetPage() {
               <h2 className="text-xl font-semibold">Meme Tax</h2>
             </div>
             <p className="text-gray-600">
-              Creating memes: 15% tax
+              Creating memes: 25% tax
               <br />
-              Sharing memes: 10% tax
+              Sharing memes: 20% tax
               <br />
               Laughing at memes: Priceless! 😂
             </p>
@@ -61,8 +67,9 @@ export default function BudgetPage() {
               <h2 className="text-xl font-semibold">Special Announcement</h2>
             </div>
             <p className="text-gray-600">
-              "We've decided to introduce a special tax on happiness. The more you smile, the more you pay! But don't
-              worry, frowning is still free... for now! 😅"
+              "We've decided to introduce a special tax on happiness. The more
+              you smile, the more you pay! But don't worry, frowning is still
+              free... for now! 😅"
             </p>
           </CardContent>
         </Card>
@@ -72,6 +79,5 @@ export default function BudgetPage() {
         <p>Remember: Even this footer is taxable! 💸</p>
       </footer>
     </div>
-  )
+  );
 }
-
