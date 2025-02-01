@@ -33,13 +33,13 @@ export default function BudgetPage() {
               <h2 className="text-xl font-semibold">Meeting Tax</h2>
             </div>
             <p className="text-gray-600">
-              Once: 10% tax
+              One meeting: 10% tax 📅
               <br />
-              More than once: 20% tax
+              Multiple meetings: 20% tax 📅📅
               <br />
-              With video: 32% tax
+              Video meetings: 32% tax 📹
               <br />
-              Don't ring: Still paying tax! 😄
+              No meetings: Still taxed! 🤑
             </p>
           </CardContent>
         </Card>
@@ -51,9 +51,11 @@ export default function BudgetPage() {
               <h2 className="text-xl font-semibold">Meme Tax</h2>
             </div>
             <p className="text-gray-600">
-              Creating memes: 25% tax
+              Creating memes: 25% tax 🎨
               <br />
-              Sharing memes: 20% tax
+              Sharing memes: 20% tax 🔄
+              <br />
+              Reposting memes: 35% tax ♻️
               <br />
               Laughing at memes: Priceless! 😂
             </p>
