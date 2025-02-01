@@ -25,6 +25,21 @@ export default function BudgetPage() {
         </div>
       </div>
 
+      {/* YouTube Video Section */}
+      <div className="max-w-xl mx-auto mb-12">
+        <div className="relative aspect-video rounded-xl overflow-hidden shadow-xl">
+          <iframe
+            width="100%"
+            height="100%"
+            src="https://www.youtube.com/embed/VV-P_C2kSL4"
+            title="Budget 2025 Video"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+            className="absolute inset-0"
+          ></iframe>
+        </div>
+      </div>
+
       <main className="max-w-4xl mx-auto grid gap-6 md:grid-cols-2">
         <Card className="bg-white shadow-xl">
           <CardContent className="p-6">
